@@ -1,0 +1,29 @@
+
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+#####
+
+Kökü 6 seçersek,
+
+7 kökten büyük olduğu için sağa, 5 kökten küçük olduğu için sola koyarız.
+
+1 5'den küçük olduğu için soluna, 8 7'den büyük olduğu için sağına koyarız.
+
+8, 7'den büyük olduğu için soluna koyulur.
+
+3, 5'den küçük ama 1'den büyük olduğu için 1'in soluna koyulur.
+
+0, 1'den küçük olduğu için sola koyulur.
+
+9,8'den büyük olduğu için sağa koyulur.
+
+4, 3'den büyük olduğu için 3'ün sağına koyulur. 2, 3'den küçük olduğu için 3'ün soluna koyulur.
+
+
+          6
+         /  \
+       5      7
+      / \      \
+     1  3        8
+    /   /\        \
+   0   2  4        9 
