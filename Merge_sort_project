@@ -3,3 +3,26 @@
 Yukarıdaki dizinin merge sort türüne göre aşamalarını yazınız.
 
 ####
+Daha hızlı sıralamak için bu yöntemi kullanıyoruz, sayı dizilerini parçalara ayırıp aralarında sıralayıp birleştiriyoruz.
+
+[16,21,11] bir dizi,      [8,12,22] bir dizi olacak şekilde ayırdık.
+-|-   -|-                  -|-   -|-
+[16] ve [21,11]            [8] ve [12,22]     diye ayırdık.
+
+sıraladığımızda;
+
+[16] ve [11,21]            [8] ve [12.22]     oluyor.
+
+birleştiriyoruz;
+
+[11,16,21]   ve     [8,12,22]   oluyor.
+
+en soldakileri kıyaslayarak yeni dizimizi yazıyoruz;
+
+[8,11,12,16,21,22]  dizisini elde ediyoruz.
+
+//////////////////////////////////////////////////////
+Big o gösterimini yazınız.
+
+#####
+O(nlogn)
