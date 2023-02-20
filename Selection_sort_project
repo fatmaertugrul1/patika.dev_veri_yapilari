@@ -1,0 +1,23 @@
+[22,27,16,2,18,6] 
+Yukarı verilen dizinin insertion sort türüne göre aşamalarını yazınız.
+Örüntünün en küçük elemanını bulup en baştaki sayı ile yerini değiştiriyoruz.
+
+#####
+1) [2,27,16,22,18,6]  //2 ile 22'nin yerini değiştirdik.
+2) [2,6,16,22,18,27]  //6 ile 27'nin yerini değiştirdik.
+3) [2,6,16,22,18,27]  //16 yerinde kalıyor.
+4) [2,6,16,18,22,27]  //18 ile 22'nin yerini değiştirdik.
+
+
+Örüntünün Big-O gösterimini yazınız.     
+#####
+O(n^2)
+
+Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız
+
+Average case: Aradığımız sayının ortada olması
+Worst case: Aradığımız sayının sonda olması
+Best case: Aradığımız sayının dizinin en başında olması
+
+#####
+18 sayısı dizinin ortasında olduğundan AVERAGE CASE kapsamındadır.
