@@ -1,0 +1,1 @@
+# patika.dev_veri_yapilari
